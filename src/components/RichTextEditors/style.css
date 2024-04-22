@@ -1,0 +1,55 @@
+
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+   .editor-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    min-height: 150px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font: inherit;
+    margin-top: 25px;
+    width: 100%;
+  }
+  
+  .editor {
+    border: none;
+    border-radius: 8px;
+    flex: 1; 
+    margin-top: 10px; 
+  }
+  
+  .ql-editor {
+    font-size: 16px;
+    
+  } 
+
+   .ql-toolbar {
+    
+    border-radius: 0px;
+    padding: 8px;
+    margin-bottom: 0px;
+    
+  } 
+  
+ 
+   .ql-toolbar button:hover {
+    background-color: #555 !important;
+  }
+   
+  
+   .ql-toolbar button:focus {
+    outline: none;
+    background-color: #333 !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+   
+ 
+  
